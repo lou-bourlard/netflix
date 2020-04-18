@@ -1,0 +1,38 @@
+@media only screen and (max-width: 949px) and (min-width: 550px), only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px) {
+.multiscreen {
+    padding: 70px 45px;
+}
+}
+
+.multiscreen {
+	display: flex;
+	justify-content: space-between;
+	background: black;
+	color: white;
+	text-align: left;
+	border-bottom: 8px solid #222;
+	padding: 45px 45px;
+}
+
+.multiscreen-text {
+	margin-left: 80px;
+}
+
+.multiscreen-text h1 {
+	font-size: 50px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+}
+
+.multiscreen-text h2 {
+	font-size: 26px;
+	font-weight: normal;
+
+}
+
+#image2 {
+	height: 420px;
+	width: 550px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}

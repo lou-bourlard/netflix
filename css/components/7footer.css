@@ -1,0 +1,45 @@
+@media only screen and (max-width: 949px) and (min-width: 550px), only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px) {
+.footer-section {
+    padding: 70px 45px;
+}
+}
+
+
+ul {
+	list-style-type: none;
+	font-size: 13px;
+}
+
+.footer-section {
+	background: black;
+	color: white;
+	padding: 70px 45px;
+}
+
+ #colonne {
+ 	column-count: 4;
+ }
+
+ .footer-section p {
+ 	font-size: 13px;
+ 	margin: 24px 0px 13px;
+ }
+
+ .footer-section button {
+ 	margin-top: 25px;
+ 	background: black;
+ 	height: 50px;
+ 	width: 130px;
+ }
+
+ .footer-section ul a {
+ 	text-decoration-color: #757575;
+ 	color: #757575;
+ }
+
+ .container a:hover {
+ 	text-decoration-color: #757575;
+ 	color: #757575;
+ }
+
+

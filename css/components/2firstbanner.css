@@ -1,0 +1,157 @@
+/* DIMENSIONS DE LA FENETRE */
+
+@media only screen and (max-width: 1449px) and (min-width: 950px) {
+.header {
+    height: 45px;
+}
+}
+
+
+@media only screen and (max-width: 949px) and (min-width: 550px), only 
+screen and (max-width: 1449px) and (min-width: 950px), 
+only screen and (min-width: 1450px) {
+.aftertheheader {
+    padding: 70px 45px;
+}
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px), only 
+screen and (max-width: 1449px) and (min-width: 950px), 
+only screen and (min-width: 1450px) {
+.header img {
+    width: 200px;}
+}
+
+@media only screen and (max-width: 1449px) and (min-width: 950px) {
+.aftertheheader h1 {
+    font-size: 3.125rem;
+}
+}
+
+@media only screen and (max-width: 1449px) and (min-width: 950px) {
+.aftertheheader nav {
+    min-width: 450px;
+    height: 60px !important;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    border-top-right-radius: 0;
+}
+
+@media only screen and (max-width: 1449px) and (min-width: 950px), only screen
+ and (min-width: 1450px) {
+.aftertheheader h3 {
+    max-width: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+}
+
+@media only screen and (max-width: 1449px) and (min-width: 950px) {
+.banner img {
+    height: 36px;
+    width: 134px;
+}
+}
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+
+.btn-red {
+	background-color: #e50914;
+	padding:6px 20px;
+	border-radius: 4px;
+	color: white;
+	font-size: 15px;
+	margin-right: 55px; 
+}
+
+.header a {
+	text-decoration: none;
+}
+
+.header a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.btn-red2 {
+	color: white;
+	background: red;
+	width: 180px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btnred a {
+	text-decoration: none;
+}
+
+.banner {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 0) 200%, rgba(0, 0, 0, 0.8) 10%), url(../../images/hero.jpg);
+	padding-bottom: 150px;
+	background-size: cover;
+	background-position: center;
+	border-bottom: 8px solid #222;
+	color: white;
+	background-position: absolute;
+}
+
+
+ .banner img {
+	height: 100px;
+	width: 170px;
+	margin-left: 30px;
+}
+
+/*CA ON TOUCHE PLUS*/
+
+.aftertheheader h1 {
+	font-size: 53px;
+	padding-bottom: 16px;
+	padding-top: 120px;
+}
+
+.aftertheheader h2 {
+	font-size: 26px; 
+	font-weight: normal;
+	margin: 0 auto;
+	padding-bottom: 16px;
+	text-align: center;
+}
+
+/* CA NON PLUS*/
+
+.aftertheheader h1, h2 {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.aftertheheader h3 {
+	font-size: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.navbar {
+	width: 700px;
+	margin: 0 auto;
+	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	margin-bottom: 16px;
+}
+
+
